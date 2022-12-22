@@ -1,11 +1,11 @@
 # Virtual-Hand-Write
 
 
-ABOUT
+**ABOUT**
 This project is an ai gesture painter or type writer that recognises and prints the written text by our index finger. This project is made on python using computer vision (OpenCV).
 
 
-HOW TO USE THE PROGRAM?
+**HOW TO USE THE PROGRAM?**
 Given below are the various modes:
 1)	Writing mode (condition: only index finger up): the tip of index finger is considered for drawing.
 2)	Pause mode (condition: only index and middle finger up): the program stops to draw. This mode is used to provide spaces between characters and to hover around the canvas without drawing.
@@ -14,13 +14,11 @@ Given below are the various modes:
 
 
 
-MODULES USED
+**MODULES USED**
+
 1.	Mediapipe :-There are many machine learning solutions inside mediapipe that includes face detection, face mesh, iris detection, hand detection.
 We used Hands inside mediapipe. MediaPipe Hands utilizes an ML pipeline consisting of multiple models working together: A palm detection model that operates on the full image and returns an oriented hand bounding box. A hand landmark model that operates on the cropped image region defined by the palm detector and returns high-fidelity 3D hand keypoints.
 
-2.	Pytesseract :- Pytesseract is an optical character recognition (OCR) tool for
-python. That is, it will recognize and “read” the text embedded in images or
- 
-videos. Tesseract finds templates in pixels, letters, words and sentences. It uses two-step approach that calls adaptive recognition. It requires one data stage for character recognition, then the second stage to fulfil any letters, it wasn’t insured in, by letters that can match the word or sentence context.
+2.	Pytesseract :- Pytesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images or videos.
 
 3.	Numpy :- NumPy is a Python library used for working with arrays.
